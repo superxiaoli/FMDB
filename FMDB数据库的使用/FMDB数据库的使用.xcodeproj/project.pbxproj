@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C25ADB0B1BCD055300929C24 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C25ADB0A1BCD055300929C24 /* main.m */; };
+		C25ADB0E1BCD055300929C24 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C25ADB0D1BCD055300929C24 /* AppDelegate.m */; };
+		C25ADB161BCD055300929C24 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C25ADB151BCD055300929C24 /* Images.xcassets */; };
+		C25ADB191BCD055300929C24 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C25ADB171BCD055300929C24 /* LaunchScreen.xib */; };
+		C25ADB251BCD055300929C24 /* FMDB______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C25ADB241BCD055300929C24 /* FMDB______Tests.m */; };
+		C25ADB301BCD059A00929C24 /* LogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C25ADB2F1BCD059A00929C24 /* LogViewController.m */; };
+		C25ADB361BCD06AB00929C24 /* LogicView.m in Sources */ = {isa = PBXBuildFile; fileRef = C25ADB351BCD06AB00929C24 /* LogicView.m */; };
+		C25ADB391BCD087900929C24 /* login_button.png in Resources */ = {isa = PBXBuildFile; fileRef = C25ADB371BCD087900929C24 /* login_button.png */; };
+		C25ADB3A1BCD087900929C24 /* register_button.png in Resources */ = {isa = PBXBuildFile; fileRef = C25ADB381BCD087900929C24 /* register_button.png */; };
+		C25ADB411BCD091B00929C24 /* ShowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C25ADB401BCD091B00929C24 /* ShowViewController.m */; };
+		C25ADB441BCD094300929C24 /* ShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = C25ADB431BCD094300929C24 /* ShowView.m */; };
+		C25ADB471BCD1B7200929C24 /* RegsinViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C25ADB461BCD1B7200929C24 /* RegsinViewController.m */; };
+		C25ADB4A1BCD1B8C00929C24 /* RegsinView.m in Sources */ = {isa = PBXBuildFile; fileRef = C25ADB491BCD1B8C00929C24 /* RegsinView.m */; };
+		C25ADB571BCD223000929C24 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = C25ADB4D1BCD223000929C24 /* FMDatabase.m */; };
+		C25ADB581BCD223000929C24 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C25ADB4F1BCD223000929C24 /* FMDatabaseAdditions.m */; };
+		C25ADB591BCD223000929C24 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = C25ADB511BCD223000929C24 /* FMDatabasePool.m */; };
+		C25ADB5A1BCD223000929C24 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = C25ADB531BCD223000929C24 /* FMDatabaseQueue.m */; };
+		C25ADB5B1BCD223000929C24 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = C25ADB561BCD223000929C24 /* FMResultSet.m */; };
+		C25ADB5D1BCD228700929C24 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C25ADB5C1BCD228700929C24 /* libsqlite3.dylib */; };
+		C25ADB601BCD243800929C24 /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C25ADB5F1BCD243800929C24 /* DataBase.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C25ADB1F1BCD055300929C24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C25ADAFD1BCD055300929C24 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C25ADB041BCD055300929C24;
+			remoteInfo = "FMDB数据库的使用";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C25ADB051BCD055300929C24 /* FMDB数据库的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "FMDB数据库的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25ADB091BCD055300929C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25ADB0A1BCD055300929C24 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C25ADB0C1BCD055300929C24 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C25ADB0D1BCD055300929C24 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C25ADB151BCD055300929C24 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C25ADB181BCD055300929C24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		C25ADB1E1BCD055300929C24 /* FMDB数据库的使用Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FMDB数据库的使用Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C25ADB231BCD055300929C24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C25ADB241BCD055300929C24 /* FMDB______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "FMDB______Tests.m"; sourceTree = "<group>"; };
+		C25ADB2E1BCD059A00929C24 /* LogViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogViewController.h; sourceTree = "<group>"; };
+		C25ADB2F1BCD059A00929C24 /* LogViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogViewController.m; sourceTree = "<group>"; };
+		C25ADB341BCD06AB00929C24 /* LogicView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LogicView.h; sourceTree = "<group>"; };
+		C25ADB351BCD06AB00929C24 /* LogicView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LogicView.m; sourceTree = "<group>"; };
+		C25ADB371BCD087900929C24 /* login_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = login_button.png; path = "../../../MusicPlayer(最终)/MusicPlayer/Source/image/login_button.png"; sourceTree = "<group>"; };
+		C25ADB381BCD087900929C24 /* register_button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = register_button.png; path = "../../../MusicPlayer(最终)/MusicPlayer/Source/image/register_button.png"; sourceTree = "<group>"; };
+		C25ADB3F1BCD091B00929C24 /* ShowViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowViewController.h; sourceTree = "<group>"; };
+		C25ADB401BCD091B00929C24 /* ShowViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowViewController.m; sourceTree = "<group>"; };
+		C25ADB421BCD094300929C24 /* ShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowView.h; sourceTree = "<group>"; };
+		C25ADB431BCD094300929C24 /* ShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowView.m; sourceTree = "<group>"; };
+		C25ADB451BCD1B7200929C24 /* RegsinViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegsinViewController.h; sourceTree = "<group>"; };
+		C25ADB461BCD1B7200929C24 /* RegsinViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegsinViewController.m; sourceTree = "<group>"; };
+		C25ADB481BCD1B8C00929C24 /* RegsinView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegsinView.h; sourceTree = "<group>"; };
+		C25ADB491BCD1B8C00929C24 /* RegsinView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegsinView.m; sourceTree = "<group>"; };
+		C25ADB4C1BCD223000929C24 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		C25ADB4D1BCD223000929C24 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		C25ADB4E1BCD223000929C24 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		C25ADB4F1BCD223000929C24 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		C25ADB501BCD223000929C24 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		C25ADB511BCD223000929C24 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		C25ADB521BCD223000929C24 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		C25ADB531BCD223000929C24 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		C25ADB541BCD223000929C24 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		C25ADB551BCD223000929C24 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		C25ADB561BCD223000929C24 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		C25ADB5C1BCD228700929C24 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		C25ADB5E1BCD243800929C24 /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
+		C25ADB5F1BCD243800929C24 /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C25ADB021BCD055300929C24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25ADB5D1BCD228700929C24 /* libsqlite3.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25ADB1B1BCD055300929C24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C25ADAFC1BCD055300929C24 = {
+			isa = PBXGroup;
+			children = (
+				C25ADB5C1BCD228700929C24 /* libsqlite3.dylib */,
+				C25ADB071BCD055300929C24 /* FMDB数据库的使用 */,
+				C25ADB211BCD055300929C24 /* FMDB数据库的使用Tests */,
+				C25ADB061BCD055300929C24 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C25ADB061BCD055300929C24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C25ADB051BCD055300929C24 /* FMDB数据库的使用.app */,
+				C25ADB1E1BCD055300929C24 /* FMDB数据库的使用Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C25ADB071BCD055300929C24 /* FMDB数据库的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				C25ADB4B1BCD223000929C24 /* FMDB */,
+				C25ADB0C1BCD055300929C24 /* AppDelegate.h */,
+				C25ADB0D1BCD055300929C24 /* AppDelegate.m */,
+				C25ADB3E1BCD08E900929C24 /* Image */,
+				C25ADB3D1BCD08C700929C24 /* Model */,
+				C25ADB3B1BCD08A200929C24 /* Controller */,
+				C25ADB3C1BCD08B200929C24 /* View */,
+				C25ADB151BCD055300929C24 /* Images.xcassets */,
+				C25ADB171BCD055300929C24 /* LaunchScreen.xib */,
+				C25ADB081BCD055300929C24 /* Supporting Files */,
+			);
+			path = "FMDB数据库的使用";
+			sourceTree = "<group>";
+		};
+		C25ADB081BCD055300929C24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C25ADB091BCD055300929C24 /* Info.plist */,
+				C25ADB0A1BCD055300929C24 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C25ADB211BCD055300929C24 /* FMDB数据库的使用Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C25ADB241BCD055300929C24 /* FMDB______Tests.m */,
+				C25ADB221BCD055300929C24 /* Supporting Files */,
+			);
+			path = "FMDB数据库的使用Tests";
+			sourceTree = "<group>";
+		};
+		C25ADB221BCD055300929C24 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C25ADB231BCD055300929C24 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C25ADB3B1BCD08A200929C24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C25ADB2E1BCD059A00929C24 /* LogViewController.h */,
+				C25ADB2F1BCD059A00929C24 /* LogViewController.m */,
+				C25ADB3F1BCD091B00929C24 /* ShowViewController.h */,
+				C25ADB401BCD091B00929C24 /* ShowViewController.m */,
+				C25ADB451BCD1B7200929C24 /* RegsinViewController.h */,
+				C25ADB461BCD1B7200929C24 /* RegsinViewController.m */,
+				C25ADB5E1BCD243800929C24 /* DataBase.h */,
+				C25ADB5F1BCD243800929C24 /* DataBase.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C25ADB3C1BCD08B200929C24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C25ADB341BCD06AB00929C24 /* LogicView.h */,
+				C25ADB351BCD06AB00929C24 /* LogicView.m */,
+				C25ADB421BCD094300929C24 /* ShowView.h */,
+				C25ADB431BCD094300929C24 /* ShowView.m */,
+				C25ADB481BCD1B8C00929C24 /* RegsinView.h */,
+				C25ADB491BCD1B8C00929C24 /* RegsinView.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C25ADB3D1BCD08C700929C24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C25ADB3E1BCD08E900929C24 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				C25ADB371BCD087900929C24 /* login_button.png */,
+				C25ADB381BCD087900929C24 /* register_button.png */,
+			);
+			name = Image;
+			sourceTree = "<group>";
+		};
+		C25ADB4B1BCD223000929C24 /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				C25ADB4C1BCD223000929C24 /* FMDatabase.h */,
+				C25ADB4D1BCD223000929C24 /* FMDatabase.m */,
+				C25ADB4E1BCD223000929C24 /* FMDatabaseAdditions.h */,
+				C25ADB4F1BCD223000929C24 /* FMDatabaseAdditions.m */,
+				C25ADB501BCD223000929C24 /* FMDatabasePool.h */,
+				C25ADB511BCD223000929C24 /* FMDatabasePool.m */,
+				C25ADB521BCD223000929C24 /* FMDatabaseQueue.h */,
+				C25ADB531BCD223000929C24 /* FMDatabaseQueue.m */,
+				C25ADB541BCD223000929C24 /* FMDB.h */,
+				C25ADB551BCD223000929C24 /* FMResultSet.h */,
+				C25ADB561BCD223000929C24 /* FMResultSet.m */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C25ADB041BCD055300929C24 /* FMDB数据库的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25ADB281BCD055300929C24 /* Build configuration list for PBXNativeTarget "FMDB数据库的使用" */;
+			buildPhases = (
+				C25ADB011BCD055300929C24 /* Sources */,
+				C25ADB021BCD055300929C24 /* Frameworks */,
+				C25ADB031BCD055300929C24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "FMDB数据库的使用";
+			productName = "FMDB数据库的使用";
+			productReference = C25ADB051BCD055300929C24 /* FMDB数据库的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C25ADB1D1BCD055300929C24 /* FMDB数据库的使用Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C25ADB2B1BCD055300929C24 /* Build configuration list for PBXNativeTarget "FMDB数据库的使用Tests" */;
+			buildPhases = (
+				C25ADB1A1BCD055300929C24 /* Sources */,
+				C25ADB1B1BCD055300929C24 /* Frameworks */,
+				C25ADB1C1BCD055300929C24 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C25ADB201BCD055300929C24 /* PBXTargetDependency */,
+			);
+			name = "FMDB数据库的使用Tests";
+			productName = "FMDB数据库的使用Tests";
+			productReference = C25ADB1E1BCD055300929C24 /* FMDB数据库的使用Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C25ADAFD1BCD055300929C24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "李帅";
+				TargetAttributes = {
+					C25ADB041BCD055300929C24 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					C25ADB1D1BCD055300929C24 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = C25ADB041BCD055300929C24;
+					};
+				};
+			};
+			buildConfigurationList = C25ADB001BCD055300929C24 /* Build configuration list for PBXProject "FMDB数据库的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C25ADAFC1BCD055300929C24;
+			productRefGroup = C25ADB061BCD055300929C24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C25ADB041BCD055300929C24 /* FMDB数据库的使用 */,
+				C25ADB1D1BCD055300929C24 /* FMDB数据库的使用Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C25ADB031BCD055300929C24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25ADB191BCD055300929C24 /* LaunchScreen.xib in Resources */,
+				C25ADB391BCD087900929C24 /* login_button.png in Resources */,
+				C25ADB3A1BCD087900929C24 /* register_button.png in Resources */,
+				C25ADB161BCD055300929C24 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25ADB1C1BCD055300929C24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C25ADB011BCD055300929C24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25ADB0E1BCD055300929C24 /* AppDelegate.m in Sources */,
+				C25ADB411BCD091B00929C24 /* ShowViewController.m in Sources */,
+				C25ADB4A1BCD1B8C00929C24 /* RegsinView.m in Sources */,
+				C25ADB571BCD223000929C24 /* FMDatabase.m in Sources */,
+				C25ADB471BCD1B7200929C24 /* RegsinViewController.m in Sources */,
+				C25ADB5A1BCD223000929C24 /* FMDatabaseQueue.m in Sources */,
+				C25ADB5B1BCD223000929C24 /* FMResultSet.m in Sources */,
+				C25ADB591BCD223000929C24 /* FMDatabasePool.m in Sources */,
+				C25ADB601BCD243800929C24 /* DataBase.m in Sources */,
+				C25ADB0B1BCD055300929C24 /* main.m in Sources */,
+				C25ADB361BCD06AB00929C24 /* LogicView.m in Sources */,
+				C25ADB301BCD059A00929C24 /* LogViewController.m in Sources */,
+				C25ADB441BCD094300929C24 /* ShowView.m in Sources */,
+				C25ADB581BCD223000929C24 /* FMDatabaseAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C25ADB1A1BCD055300929C24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C25ADB251BCD055300929C24 /* FMDB______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C25ADB201BCD055300929C24 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C25ADB041BCD055300929C24 /* FMDB数据库的使用 */;
+			targetProxy = C25ADB1F1BCD055300929C24 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C25ADB171BCD055300929C24 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C25ADB181BCD055300929C24 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C25ADB261BCD055300929C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C25ADB271BCD055300929C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C25ADB291BCD055300929C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FMDB数据库的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C25ADB2A1BCD055300929C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "FMDB数据库的使用/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C25ADB2C1BCD055300929C24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FMDB数据库的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMDB数据库的使用.app/FMDB数据库的使用";
+			};
+			name = Debug;
+		};
+		C25ADB2D1BCD055300929C24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FMDB数据库的使用Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FMDB数据库的使用.app/FMDB数据库的使用";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C25ADB001BCD055300929C24 /* Build configuration list for PBXProject "FMDB数据库的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25ADB261BCD055300929C24 /* Debug */,
+				C25ADB271BCD055300929C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C25ADB281BCD055300929C24 /* Build configuration list for PBXNativeTarget "FMDB数据库的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25ADB291BCD055300929C24 /* Debug */,
+				C25ADB2A1BCD055300929C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C25ADB2B1BCD055300929C24 /* Build configuration list for PBXNativeTarget "FMDB数据库的使用Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C25ADB2C1BCD055300929C24 /* Debug */,
+				C25ADB2D1BCD055300929C24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C25ADAFD1BCD055300929C24 /* Project object */;
+}
